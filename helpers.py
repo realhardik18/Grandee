@@ -1,7 +1,8 @@
 import tweepy
-from creds import BEARER_TOKEN,API_KEY,API_KEY_SECRET,ACCSES_TOKEN,ACCSESS_TOKEN_SECRET
+from googleapiclient.discovery import build
+from creds import TWITTER_BEARER_TOKEN,TWITTER_API_KEY,TWITTER_API_KEY_SECRET,TWITTER_ACCSES_TOKEN,TWITTER_ACCSESS_TOKEN_SECRET,YOUTUBE_API_KEY
 
-client=tweepy.Client(bearer_token=BEARER_TOKEN, consumer_key=API_KEY, consumer_secret=API_KEY_SECRET, access_token=ACCSES_TOKEN, access_token_secret=ACCSESS_TOKEN_SECRET)
+client=tweepy.Client(bearer_token=TWITTER_BEARER_TOKEN, consumer_key=TWITTER_API_KEY, consumer_secret=TWITTER_API_KEY_SECRET, access_token=TWITTER_ACCSES_TOKEN, access_token_secret=TWITTER_ACCSESS_TOKEN_SECRET)
 
 class Twitter:
     def __init__(self,user_link):
@@ -28,8 +29,20 @@ class Twitter:
         }
         return data
         
+class Youtube:
+    def __init__(self,id):
+        self.id=id
+    def GetChannelStats(id):
+        youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
+        request = youtube.channels().list(part='statistics',id=id)
+        response = request.execute()
+        data={
+            "subs":response['items'][0]['statistics']['subscriberCount'],
+            "views":response['items'][0]['statistics']['viewCount'],
+            "videos":response['items'][0]['statistics']['videoCount']
+        }
+        return data
     
-
 
 #print(Twitter.GetUsernameFromLink('https://twitter.com/Ultimateadi18'))
 #print(Twitter.GetUserFollowers(user_link='https://twitter.com/Ultimateadi18'))
@@ -37,3 +50,4 @@ class Twitter:
 #print(Twitter.GetUserID(user_link='https://twitter.com/Ultimateadi18'))
 #print(Twitter.GetUserweetCount('https://twitter.com/Ultimateadi18'))
 #print(Twitter.GetRecentTweet('https://twitter.com/Ultimateadi18'))
+#print(Youtube.GetChannelStats('UCJBtCUf_GEvlYeOwUSnCC0Q'))
