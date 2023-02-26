@@ -3,6 +3,7 @@ from googleapiclient.discovery import build
 from creds import TWITTER_BEARER_TOKEN,TWITTER_API_KEY,TWITTER_API_KEY_SECRET,TWITTER_ACCSES_TOKEN,TWITTER_ACCSESS_TOKEN_SECRET,YOUTUBE_API_KEY
 
 client=tweepy.Client(bearer_token=TWITTER_BEARER_TOKEN, consumer_key=TWITTER_API_KEY, consumer_secret=TWITTER_API_KEY_SECRET, access_token=TWITTER_ACCSES_TOKEN, access_token_secret=TWITTER_ACCSESS_TOKEN_SECRET)
+youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 
 class Twitter:
     def __init__(self,user_link):
@@ -30,18 +31,29 @@ class Twitter:
         return data
         
 class Youtube:
+    #https://developers.google.com/youtube/v3/docs    
     def __init__(self,id):
         self.id=id
     def GetChannelStats(id):
-        youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
-        request = youtube.channels().list(part='statistics',id=id)
+        request = youtube.channels().list(part=['snippet','statistics'],id=id)
         response = request.execute()
         data={
+            "name":response['items'][0]['snippet']['title'],
+            "picture":response['items'][0]['snippet']['thumbnails']['default']['url'],
             "subs":response['items'][0]['statistics']['subscriberCount'],
             "views":response['items'][0]['statistics']['viewCount'],
             "videos":response['items'][0]['statistics']['videoCount']
         }
         return data
+    def GetLatestVideo(id):
+        request = youtube.search().list(part='snippet',order="date",channelId=id)
+        response = request.execute()
+        data={
+        "title":response['items'][0]['snippet']['title'],
+        "thumbnail":response['items'][0]['snippet']['thumbnails']['default']['url']
+        }
+        return data
+
     
 
 #print(Twitter.GetUsernameFromLink('https://twitter.com/Ultimateadi18'))
@@ -51,3 +63,4 @@ class Youtube:
 #print(Twitter.GetUserweetCount('https://twitter.com/Ultimateadi18'))
 #print(Twitter.GetRecentTweet('https://twitter.com/Ultimateadi18'))
 #print(Youtube.GetChannelStats('UCJBtCUf_GEvlYeOwUSnCC0Q'))
+print(Youtube.GetLatestVideo('UCJBtCUf_GEvlYeOwUSnCC0Q'))
