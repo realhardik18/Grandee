@@ -1,0 +1,42 @@
+[
+  {
+    "imageprompt": "A young man in his early twenties, sitting on a couch, staring at his phone with a concerned expression. The room is dimly lit, with a warm tone. He's surrounded by sports equipment and fitness magazines, hinting at his interest in staying healthy and active.",
+    "voice_over_text": "Meet Alex, a young man in his early twenties. He's always been passionate about fitness and taking care of his body. But lately, he's been noticing some changes. His energy levels are lower, and he's struggling to focus in class."
+  },
+  {
+    "imageprompt": "A close-up shot of Alex's phone, with the Testmaxi AI app open on the screen. The app's interface is clean and modern, with a soothing blue color scheme. The camera pans out to show Alex's concerned expression as he reads about the importance of testosterone levels.",
+    "voice_over_text": "He's been researching online and talking to friends, but he's not sure what's causing these changes. He's heard of testosterone levels, but he's not sure how to improve them."
+  },
+  {
+    "imageprompt": "Alex is shown talking to a doctor, who explains the importance of testosterone levels in young men. The doctor is smiling and reassuring, with a friendly demeanor. The room is well-lit, with a calming atmosphere.",
+    "voice_over_text": "That's when he discovered Testmaxi AI. This revolutionary app uses AI technology to help young men like Alex improve their testosterone levels and overall health."
+  },
+  {
+    "imageprompt": "A montage of Alex using the Testmaxi AI app, with animations and graphics illustrating the app's features. The camera shows him tracking his progress, setting goals, and receiving personalized advice from the app's AI coach.",
+    "voice_over_text": "With Testmaxi AI, Alex can track his progress, set goals, and receive personalized advice from the app's AI coach. He can also connect with a community of like-minded young men who are working towards similar goals."
+  },
+  {
+    "imageprompt": "Alex is shown engaging with the Testmaxi AI community, chatting with other users and sharing his progress. The camera shows a group of young men laughing and high-fiving each other, with a lively and energetic atmosphere.",
+    "voice_over_text": "The community is a key part of the Testmaxi AI experience. Alex can connect with others who understand what he's going through, and get support and motivation when he needs it most."
+  },
+  {
+    "imageprompt": "A shot of Alex's phone, with the Testmaxi AI app open on the screen. The camera zooms in on the app's dashboard, showing his progress and goals. The background is a calming blue color, with a subtle animation of a rising testosterone level.",
+    "voice_over_text": "With Testmaxi AI, Alex can take control of his health and wellness. He can track his progress, set goals, and receive personalized advice from the app's AI coach."
+  },
+  {
+    "imageprompt": "A shot of Alex smiling and looking confident, with a fitness background and a motivational quote on the screen. The camera pans out to show a group of young men working out and having fun, with a lively and energetic atmosphere.",
+    "voice_over_text": "By using Testmaxi AI, Alex has been able to improve his testosterone levels and overall health. He's more confident, more energetic, and more motivated than ever before."
+  },
+  {
+    "imageprompt": "A shot of the Testmaxi AI logo, with a call-to-action to download the app. The background is a clean and modern design, with a soothing blue color scheme.",
+    "voice_over_text": "Don't let low testosterone levels hold you back. Download Testmaxi AI today and start taking control of your health and wellness."
+  },
+  {
+    "imageprompt": "A shot of Alex's phone, with the Testmaxi AI app open on the screen. The camera zooms in on the app's dashboard, showing his progress and goals. The background is a calming blue color, with a subtle animation of a rising testosterone level.",
+    "voice_over_text": "Join the thousands of young men who have already improved their testosterone levels and overall health with Testmaxi AI. Download the app now and start your journey to a healthier, happier you."
+  },
+  {
+    "imageprompt": "A shot of the Testmaxi AI logo, with a call-to-action to download the app. The background is a clean and modern design, with a soothing blue color scheme.",
+    "voice_over_text": "Don't wait any longer. Download Testmaxi AI today and start taking control of your health and wellness."
+  }
+]
