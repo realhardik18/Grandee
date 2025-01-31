@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from uitils import generateimage
+from utils import generateimage
 
 load_dotenv()
 
