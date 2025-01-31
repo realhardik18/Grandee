@@ -1,0 +1,26 @@
+[
+  {
+    "image_prompt": "A close-up shot of a juicy steak sizzling on a grill, with a warm golden light illuminating the scene, and a subtle smoky haze in the background. The steak should be cooked to perfection, with a nice char on the outside and a tender pink color on the inside. In the foreground, a young man with a friendly smile and a fit physique should be holding a fork and knife, with a confident expression on his face.",
+    "voice_over_text": "First up, red meat. Steak, in particular, is packed with zinc, a mineral that plays a crucial role in testosterone production."
+  },
+  {
+    "image_prompt": "A shot of a handful of fresh spinach leaves, with a soft focus and a warm natural light. The spinach should be arranged artfully in a small bowl or on a plate, with a few cherry tomatoes or other garnishes to add color and interest. In the background, a young man should be shown in the distance, working out or engaging in a physical activity to emphasize the importance of testosterone for overall health.",
+    "voice_over_text": "Leafy greens like spinach are rich in magnesium, another essential mineral for testosterone production. Plus, they're low in calories and high in nutrients."
+  },
+  {
+    "image_prompt": "A shot of a bowl of fatty fish, such as salmon, with a generous serving of omega-3 rich fish oil on top. The fish should be cooked to perfection, with a flaky texture and a moist, juicy interior. In the background, a young man should be shown relaxing on a beach or by a pool, emphasizing the importance of relaxation and stress reduction for testosterone production.",
+    "voice_over_text": "Fatty fish like salmon are not only rich in omega-3s, but they're also high in vitamin D, which is essential for testosterone production."
+  },
+  {
+    "image_prompt": "A shot of a handful of almonds, with a few loose nuts scattered around the edges of the frame. The almonds should be arranged artfully in a small bowl or on a plate, with a few fresh berries or other garnishes to add color and interest. In the background, a young man should be shown snacking on the almonds while working out or engaging in a physical activity.",
+    "voice_over_text": "Nuts and seeds like almonds are rich in healthy fats and magnesium, making them a great snack for testosterone support."
+  },
+  {
+    "image_prompt": "A shot of a glass of cold milk, with a few ice cubes floating in the background. The milk should be poured into a tall glass, with a generous serving of ice cream or other dairy product on top. In the foreground, a young man should be shown holding the glass and smiling, with a confident expression on his face.",
+    "voice_over_text": "And finally, dairy products like milk are rich in calcium, which is essential for testosterone production. Plus, they're a great source of protein to help build muscle."
+  },
+  {
+    "image_prompt": "A closing shot of a young man smiling and flexing, with a fit and toned physique. The background should be a bright and sunny day, with a few palm trees or other tropical plants in the distance. The young man should be shown in a relaxed and confident pose, with a few weights or other fitness equipment in the background to emphasize the importance of exercise for testosterone production.",
+    "voice_over_text": "So there you have it, guys. These foods can help support healthy testosterone levels. Eat well, train hard, and you'll be on your way to a stronger, healthier you."
+  }
+]
